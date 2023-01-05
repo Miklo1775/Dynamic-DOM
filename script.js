@@ -9,6 +9,12 @@
 //3 What UI element allows a user to remove a previously added bookmark?
 //4 How can you make sure that the correct bookmark is removed?
 
+const body = document.body;
+const bUrl = document.querySelector(".url");
+const bName = document.querySelector(".bname");
+const bList = document.querySelector(".b-list");
+const bAdd = document.querySelector(".btn-add");
+
 
 
 const = bookmarks [];
