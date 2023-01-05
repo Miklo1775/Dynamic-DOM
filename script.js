@@ -14,6 +14,8 @@ const bUrl = document.querySelector(".url");
 const bName = document.querySelector(".bname");
 const bList = document.querySelector(".b-list");
 const bAdd = document.querySelector(".btn-add");
+const bRemove = document.querySelector('.btn-remove')
+
 
 
 
