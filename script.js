@@ -17,18 +17,10 @@ const bAdd = document.querySelector(".btn-add");
 const bRemove = document.querySelector('.btn-remove')
 
 
-
-
 const = bookmarks [];
 
-const removeBookmark = document.getElementById();
-favoritesMarkDel.addEventListener('click', )
-// set variable for bookmarks list in element in html
-// add event listener for clicking delete of bookmark , push new bookmarks array with changes
-// show/render updated favorites list
-
-const addBookmarkButton = document.getElementById();
-addBookmarkButton.addEventListener('click', ()=> {
+ 
+bAdd.addEventListener('click', ()=> {
     // get bookmark name
 
     //get bookmark address
@@ -37,9 +29,21 @@ addBookmarkButton.addEventListener('click', ()=> {
 
     // show/render updated favorites list
 });
+// elements b-add  <  class for add
+
+
+
+bRemove.addEventListener('click', ()+> {
+
+});
+// set variable for bookmarks list in element in html
+// add event listener for clicking delete of bookmark , push new bookmarks array with changes
+// show/render updated favorites list
+
+
 
 const renderMarks = () => {
-    const bookmarkList = document.getElementById();
+    const bookmarkList = bList;
     bookmarks.map()
 
     bookmarkList.appendChild();
